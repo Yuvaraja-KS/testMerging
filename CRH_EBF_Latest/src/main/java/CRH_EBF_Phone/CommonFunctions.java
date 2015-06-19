@@ -8666,45 +8666,57 @@ static void writeToExcel(String output, ArrayList<Result_bean> result) throws Ex
 				lbl = new Label(c, r, rb.getTestCase(),	tableFormatBackground_testname);
 				sheet1.addCell(lbl);
 			}
-			lbl = new Label(c + 1, r, rb.getResult_scenario(), tableFormatBackground3);
-			sheet1.addCell(lbl);
-			if(rb.getResult().equalsIgnoreCase("fail")) {
-				lbl = new Label(c + 2, r, rb.getResult(), tableFormatBackground_status_fail);
-				flag = true;
+			if(rb.getResult().equals("")) {
+				lbl = new Label(c + 1, r, rb.getResult_scenario(), tableFormatBackground4);
+				sheet1.addCell(lbl);
+				lbl = new Label(c + 2, r, rb.getResult(), tableFormatBackground4);
+				sheet1.addCell(lbl);
+				lbl = new Label(c + 3, r, "", tableFormatBackground4);
+				sheet1.addCell(lbl);
+				lbl = new Label(c + 4, r, rb.getResult_expected(), tableFormatBackground4);
+				sheet1.addCell(lbl);
 			} else {
-				lbl = new Label(c + 2, r, rb.getResult(), tableFormatBackground_status_pass);
-			}
-			sheet1.addCell(lbl);
-			logger.info("Check");
-			//logger.info(Class.forName(rb.getTestCase()).getDeclaredMethod("getPassScreenshot").invoke(Class.forName(rb.getTestCase()).getClass()).equals(null) ? "NULL" : Class.forName(rb.getTestCase()).getDeclaredMethod("getPassScreenshot").invoke(Class.forName(rb.getTestCase()).getClass()).toString());
-			String passScreenShot = getPassScreenshot(rb.getTestCase());//RT_Phone_001.passScrShot;//Class.forName(rb.getTestCase()).getDeclaredField("passScrShot").get(null).toString();
-			logger.info("passScreenShot - " + passScreenShot);
-			if(passScreenShot.equalsIgnoreCase("Y") && (rb.getResult_expected() != " ") && rb.getResult_actual().contains("\\")) {
-				//Code to Hyperlink Starts
-				String str = rb.getResult_actual();
-				String p[] = str.split(" Refer screenshot: ");
-				//logger.info("p:"+p);
-				logger.info("p1:"+p[1]);
-				logger.info("p0:"+p[0]);
-				logger.info("p[0]"+p[0].replaceAll("\n", ""));
-				//String textActual= str.substring(0, str.indexOf("C:") - 1);
-				//String scn= "HYPERLINK(\"" + p + "\"," + "\"" + textActual + "\")";
-				String scn= "HYPERLINK(\"" + p[1] + "\"," + "\"" + p[0].replaceAll("\n", "") + "\")";
-				logger.info("Hyperlink string - " + scn);
-				Formula link = new Formula(c + 3, r, scn);
-				sheet1.addCell(link);
-				WritableCell cell = sheet1.getWritableCell(c + 3 , r);
-				cell.setCellFormat(tableFormatBackground3);
-				//Code to Hyperlink ends
-			}
-			else {
-				lbl = new Label(c + 3, r, rb.getResult_actual(), tableFormatBackground5);
+				lbl = new Label(c + 1, r, rb.getResult_scenario(), tableFormatBackground3);
+				sheet1.addCell(lbl);
+				if(rb.getResult().equalsIgnoreCase("fail")) {
+					lbl = new Label(c + 2, r, rb.getResult(), tableFormatBackground_status_fail);
+					flag = true;
+				} else {
+					lbl = new Label(c + 2, r, rb.getResult(), tableFormatBackground_status_pass);
+				}
+				sheet1.addCell(lbl);
+				logger.info("Check");
+				//logger.info(Class.forName(rb.getTestCase()).getDeclaredMethod("getPassScreenshot").invoke(Class.forName(rb.getTestCase()).getClass()).equals(null) ? "NULL" : Class.forName(rb.getTestCase()).getDeclaredMethod("getPassScreenshot").invoke(Class.forName(rb.getTestCase()).getClass()).toString());
+				String passScreenShot = getPassScreenshot(rb.getTestCase());//RT_Phone_001.passScrShot;//Class.forName(rb.getTestCase()).getDeclaredField("passScrShot").get(null).toString();
+				logger.info("passScreenShot - " + passScreenShot);
+				if(passScreenShot.equalsIgnoreCase("Y") && (rb.getResult_expected() != " ") && rb.getResult_actual().contains("\\")) {
+					//Code to Hyperlink Starts
+					String str = rb.getResult_actual();
+					String p[] = str.split(" Refer screenshot: ");
+					//logger.info("p:"+p);
+					logger.info("p1:"+p[1]);
+					logger.info("p0:"+p[0]);
+					logger.info("p[0]"+p[0].replaceAll("\n", ""));
+					//String textActual= str.substring(0, str.indexOf("C:") - 1);
+					//String scn= "HYPERLINK(\"" + p + "\"," + "\"" + textActual + "\")";
+					String scn= "HYPERLINK(\"" + p[1] + "\"," + "\"" + p[0].replaceAll("\n", "") + "\")";
+					logger.info("Hyperlink string - " + scn);
+					Formula link = new Formula(c + 3, r, scn);
+					sheet1.addCell(link);
+					WritableCell cell = sheet1.getWritableCell(c + 3 , r);
+					cell.setCellFormat(tableFormatBackground3);
+					//Code to Hyperlink ends
+				}
+				else {
+					lbl = new Label(c + 3, r, rb.getResult_actual(), tableFormatBackground5);
+					sheet1.addCell(lbl);
+				}
+				//lbl = new Label(c + 3, r, rb.getResult_actual(), tableFormatBackground3);
+				//sheet1.addCell(lbl);
+				lbl = new Label(c + 4, r, rb.getResult_expected(), tableFormatBackground3);
 				sheet1.addCell(lbl);
 			}
-			//lbl = new Label(c + 3, r, rb.getResult_actual(), tableFormatBackground3);
-			//sheet1.addCell(lbl);
-			lbl = new Label(c + 4, r, rb.getResult_expected(), tableFormatBackground3);
-			sheet1.addCell(lbl);
+			
 			r++;
 		}
 		sheet1.mergeCells(0, counter_result_initial, 0, r - 1);
