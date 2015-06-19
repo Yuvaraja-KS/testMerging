@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="CRH_Internet.EBF_Internet_Test">
+        <methods>
+          <include name="RT_Internet_009" invocation-numbers="0"/>
+          <include name="RT_Internet_010" invocation-numbers="0"/>
+          <include name="RT_Internet_004" invocation-numbers="0"/>
+          <include name="RT_Internet_002" invocation-numbers="0"/>
+          <include name="RT_Internet_003" invocation-numbers="0"/>
+          <include name="RT_Internet_008" invocation-numbers="0"/>
+          <include name="RT_Internet_012" invocation-numbers="0"/>
+          <include name="RT_Internet_006" invocation-numbers="0"/>
+          <include name="RT_Internet_007" invocation-numbers="0"/>
+          <include name="Reader"/>
+        </methods>
+      </class> <!-- CRH_Internet.EBF_Internet_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
