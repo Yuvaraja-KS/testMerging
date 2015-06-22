@@ -261,8 +261,7 @@ public class CRH_EBF_Phone_test extends CommonFunctions {
 	public void RT_Phone(String br, String location, String testCase) {
 		
 		//loc=7;
-		loc = Integer.parseInt(location);
-		logger.info("Browser is - " + br);
+		int loc = Integer.parseInt(location);
 		//logger.info("Location is - " + location);
 		//logger.info("Test Case is - " + testCase);
 		
@@ -283,6 +282,10 @@ public class CRH_EBF_Phone_test extends CommonFunctions {
 				if(gr.equalsIgnoreCase("Yes") && !br.equals("")) {			
 					Test_called++;
 					logger.info("Test_called in main test_a is"+Test_called );
+					logger.info("location and test case name in terst is"+location+" -- "+testCase);
+					
+					logger.info("loc and test case is "+loc+" -- "+testCase);
+					logger.info("Browser is - " + br);
 					a.print(inputfile,outputfile+"_"+br+".xls",spath, true, br,loc,Test_called);
 				}
 				else if(gr.equals("No") && br.equals(" ") && !br.equals("NA")) {
@@ -327,7 +330,7 @@ public class CRH_EBF_Phone_test extends CommonFunctions {
 				if(gr.equals("No")) {
 					Test_called++;
 					logger.info("GRID IS NO In MAIN!");
-					a.print(inputfile,outputfile+".xls",spath, true, br,loc,Test_called);
+					a.print(inputfile,outputfile+".xls",spath, true, br,Integer.parseInt(location),Test_called);
 					
 				}
 				logger.info("loca value in test1 is "+loc);

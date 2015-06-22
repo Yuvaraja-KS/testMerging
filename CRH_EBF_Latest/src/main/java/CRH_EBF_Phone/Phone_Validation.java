@@ -39,6 +39,8 @@ public class Phone_Validation  extends CommonFunctions
 	  
 	  logger.info("RESULTS"+output);
 	  logger.info("inp"+path);
+	  logger.info("firstpageis 1 "+firstpage);
+	  
 logger.info(" Test_called value inside validation :"+Test_called);
 logger.info("^^^^^^^^^^^ Br  and loc value validation is ^^^^^^^^^" +br+" "+loc);
 File data1 = new File(path);
@@ -108,7 +110,7 @@ if(!(no_of_browsers.contains("N")))
 
 logger.info("brinst "+brinst);
 
-  
+  /*
   
   if(Test_called<brinst)
   {
@@ -129,7 +131,10 @@ logger.info("brinst "+brinst);
   		
   }
 	 
-	
+*/		 diff1 = 0.0D;
+data = new File(output);
+workbook = Workbook.createWorkbook(data);
+sheet1 = workbook.createSheet("Results", 0);
 		
 	TableFormat = new WritableFont(WritableFont.ARIAL, 9,
 			WritableFont.NO_BOLD, false, UnderlineStyle.NO_UNDERLINE, Colour.BLACK);
@@ -152,21 +157,24 @@ logger.info("brinst "+brinst);
 	 tfb_spaceline = new WritableCellFormat();
 	 tfb_spaceline_black = new WritableCellFormat();
       tfb1_summary = new WritableCellFormat();
+      logger.info("firstpageis 2_btry "+firstpage);
       
 try {
-
+	logger.info("firstpageis 2 "+firstpage);
 	if (firstpage) {
+		logger.info("firstpageis 3 "+firstpage);
 		logger.info("Initial time is ",System.currentTimeMillis());
 		logger.info("Browser ",br);
 		logger.info("validation called3");
 		if (loc==first_tc)
 		{
 			
-			
+		/*	
 		sheet1.setColumnView(0, 11);
 		sheet1.setColumnView(1, 30);
 		sheet1.setColumnView(2, 20);
 		sheet1.setColumnView(4, 40);
+		*/
 		tfb.setFont(TableFormat);
 		tfb1_heading.setFont(TableFormat1);
 		tfb.setAlignment(Alignment.RIGHT);
@@ -193,42 +201,42 @@ try {
 		
 		
 		tfb.setBackground(Colour.GREY_25_PERCENT);
-		sheet1.mergeCells(0,0,4,0);
-		sheet1.mergeCells(0,1,1,8);
-		sheet1.mergeCells(2,1,3,1);
-		sheet1.mergeCells(2,8,3,8);
-		sheet1.mergeCells(4,1,4,8);
+		//sheet1.mergeCells(0,0,4,0);
+		//sheet1.mergeCells(0,1,1,8);
+		//sheet1.mergeCells(2,1,3,1);
+		//sheet1.mergeCells(2,8,3,8);
+		//sheet1.mergeCells(4,1,4,8);
 		
 		lbl = new Label(0, 0, "EBF Regression - PHONE - TEST RESULTS", tfb1_heading);
-		sheet1.addCell(lbl);
+		//sheet1.addCell(lbl);
 		lbl = new Label(2,1, "", tfb);
-		sheet1.addCell(lbl);
+		//sheet1.addCell(lbl);
 		lbl = new Label(0,1, "", tfb);
-		sheet1.addCell(lbl);
+		//sheet1.addCell(lbl);
 		lbl = new Label(2,8, "", tfb);
-		sheet1.addCell(lbl);
+		//sheet1.addCell(lbl);
 		lbl = new Label(4,1, "", tfb);
-		sheet1.addCell(lbl);
+		//sheet1.addCell(lbl);
 		
 		//lbl = new Label(0,0, "", tfb1_heading);
 		//sheet1.addCell(lbl);
 		
-		sheet1.mergeCells(2,2,3,2);
+		//sheet1.mergeCells(2,2,3,2);
 		lbl = new Label(2, 2, "Execution Summary", tfb1);
-		sheet1.addCell(lbl);
+		//sheet1.addCell(lbl);
 		tfb.setFont(TableFormat);
 		lbl = new Label(0, 9, "Test Case",
 				tfb1);
-		sheet1.addCell(lbl);
+		//sheet1.addCell(lbl);
 		lbl = new Label(1, 9, "Test Scenario", tfb1);
-		sheet1.addCell(lbl);
+		//sheet1.addCell(lbl);
 
 		lbl = new Label(2, 9, "Status", tfb1);
-		sheet1.addCell(lbl);
+		//sheet1.addCell(lbl);
 		lbl = new Label(3, 9, "Actual Result", tfb1);
-		sheet1.addCell(lbl);
+		//sheet1.addCell(lbl);
 		lbl = new Label(4, 9, "Expected Result", tfb1);
-		sheet1.addCell(lbl);
+		//sheet1.addCell(lbl);
 		
 		}
 		tfb_spaceline.setBackground(Colour.PALETTE_BLACK);
@@ -319,6 +327,7 @@ try {
 				logger.info("Initial Time and br :",st);
 				logger.info("Starting execution!!");
 				System.out.println("Initial Time "+st);
+				
 				
 				if (loc == 7)
 		        	  pass += obj_run(new RT_Phone_001(path), 0,sheet1, name1,loc,br,br_specific);
