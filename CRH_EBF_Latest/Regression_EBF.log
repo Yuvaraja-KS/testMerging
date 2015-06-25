@@ -1,0 +1,148 @@
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Path C:\Users\shivendu.kumar\workspace\Catalyst\CRH_EBF_Latest
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Computer Name~~~~~~~~~~~BDC6-D-441SQR4
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) inputfile C:\Users\shivendu.kumar\workspace\Catalyst\CRH_EBF_Latest\CRH_EBF_Input_Sheet.xls outputfile C:\Users\shivendu.kumar\workspace\Catalyst\CRH_EBF_Latest\Test_Results//BDC6-D-441SQR4_Test_Results\CRH_EBF_Phone_Results
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) first_row 7
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N name RT_Phone_001
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N im varialble 7
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N name RT_Phone_002
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N im varialble 8
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 NA name RT_Phone_003
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 NA im varialble 9
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N name RT_Phone_004
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N im varialble 10
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N name RT_Phone_005
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N im varialble 11
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N name RT_Phone_006
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N im varialble 12
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N name RT_Phone_007
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N im varialble 13
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N name RT_Phone_008
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N im varialble 14
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 Y name RT_Phone_009
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 Y im varialble 15
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N name RT_Phone_010
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N im varialble 16
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N name RT_Phone_011
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N im varialble 17
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N name RT_Phone_012
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N im varialble 18
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 NA name RT_Phone_013
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 NA im varialble 19
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N name RT_Phone_014
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N im varialble 20
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N name RT_Phone_015
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N im varialble 21
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N name RT_Phone_016
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1 N im varialble 22
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  name 
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  im varialble 23
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  name 
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  im varialble 24
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  name 
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  im varialble 25
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  name 
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  im varialble 26
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  name 
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  im varialble 27
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  name 
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  im varialble 28
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  name 
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  im varialble 29
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  name 
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  im varialble 30
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  name 
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  im varialble 31
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  name 
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  im varialble 32
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  name 
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  im varialble 33
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  name 
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  im varialble 34
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  name 
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) TC1  im varialble 35
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) RO initialized
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) RO initialized
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) RO initialized
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) RO initialized
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) RO initialized
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) RO initialized
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) RO initialized
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) RO initialized
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) RO initialized
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) RO initialized
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Grid is no
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Browser is - FF
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) NRT_Phone_001
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Grid is no
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Browser is - FF
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) NRT_Phone_002
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Grid is no
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Browser is - FF
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) NART_Phone_003
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Grid is no
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Browser is - FF
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) NRT_Phone_004
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Grid is no
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Browser is - FF
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) NRT_Phone_005
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Grid is no
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Browser is - FF
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) NRT_Phone_006
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Grid is no
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Browser is - FF
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) NRT_Phone_007
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Grid is no
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Browser is - FF
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) NRT_Phone_008
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Grid is no
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Browser is - FF
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) YRT_Phone_009
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Value of br in main is FF
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) GRID IS NO In MAIN!
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) RESULTSC:\Users\shivendu.kumar\workspace\Catalyst\CRH_EBF_Latest\Test_Results//BDC6-D-441SQR4_Test_Results\CRH_EBF_Phone_Results.xls
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) inpC:\Users\shivendu.kumar\workspace\Catalyst\CRH_EBF_Latest\CRH_EBF_Input_Sheet.xls
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:)  Test_called value inside validation :1
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) ^^^^^^^^^^^ Br  and loc value validation is ^^^^^^^^^FF 15
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) validation called 123
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) JS Check 2
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) brinst 3
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Initial time is 
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Browser 
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) validation called3
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) validation called4
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) *******check1.1
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) *******check1
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) *******check2
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) *******check3
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) *******check4
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) *******check5
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) *******check6
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) *******check7
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) *******check8
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) Sep1---> number of rows 36
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) location_b
+06-19-2015 15:16:16  [CRH_EBF_Phone.CommonFunctions] (main:) overall 123 C:\Users\shivendu.kumar\workspace\Catalyst\CRH_EBF_Latest
+06-19-2015 15:16:17  [CRH_EBF_Phone.CommonFunctions] (main:) Y
+06-19-2015 15:16:17  [CRH_EBF_Phone.CommonFunctions] (main:) location_a
+06-19-2015 15:16:17  [CRH_EBF_Phone.CommonFunctions] (main:) Grid status No
+06-19-2015 15:16:17  [CRH_EBF_Phone.CommonFunctions] (main:) br valueis^^^^^^^^^:FF
+06-19-2015 15:16:17  [CRH_EBF_Phone.CommonFunctions] (main:) location_C
+06-19-2015 15:16:17  [CRH_EBF_Phone.CommonFunctions] (main:) exec1 Y loc 15
+06-19-2015 15:16:17  [CRH_EBF_Phone.CommonFunctions] (main:) location_d
+06-19-2015 15:16:17  [CRH_EBF_Phone.CommonFunctions] (main:) location_f
+06-19-2015 15:16:17  [CRH_EBF_Phone.CommonFunctions] (main:) Initial Time and br :
+06-19-2015 15:16:17  [CRH_EBF_Phone.CommonFunctions] (main:) Starting execution!!
+06-19-2015 15:16:17  [CRH_EBF_Phone.CommonFunctions] (main:) add phone is intialized
+06-19-2015 15:16:17  [CRH_EBF_Phone.CommonFunctions] (main:) Obj run is called
+06-19-2015 15:16:17  [CRH_EBF_Phone.CommonFunctions] (main:) set up is called
+06-19-2015 15:16:17  [CRH_EBF_Phone.CommonFunctions] (main:) https://beta01.twcable.com/residential/order
+06-19-2015 15:16:17  [CRH_EBF_Phone.CommonFunctions] (main:) Grid_Status No br FF
+06-19-2015 15:16:17  [CRH_EBF_Phone.CommonFunctions] (main:) https://beta01.twcable.com/residential/order
+06-19-2015 15:16:17  [CRH_EBF_Phone.CommonFunctions] (main:) Fire fox browser started
+06-19-2015 15:16:17  [CRH_EBF_Phone.CommonFunctions] (main:) i went inside this loop of firefox
+06-19-2015 15:16:17  [CRH_EBF_Phone.CommonFunctions] (main:) In loop of firefox driver and grid status false
+06-19-2015 15:16:21  [CRH_EBF_Phone.CommonFunctions] (main:) Before grid remote
+06-19-2015 15:16:21  [CRH_EBF_Phone.CommonFunctions] (main:) helo
+06-19-2015 15:16:21  [CRH_EBF_Phone.CommonFunctions] (main:) Just reached end of setup
+06-19-2015 15:16:21  [CRH_EBF_Phone.CommonFunctions] (main:) chheck1
+06-19-2015 15:16:24  [CRH_EBF_Phone.CommonFunctions] (main:) trying to open the url
